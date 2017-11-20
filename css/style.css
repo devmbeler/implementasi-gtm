@@ -45,6 +45,12 @@ p{
     color: #FFF;
     background-color: #34495e;
     border-radius: 3px;
+    text-decoration: none;
+    margin: 20px 0px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .btn:hover{
