@@ -59,20 +59,26 @@ p{
 
 input[type=text] {
     width: 400px;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 4px 10px;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 4px 0;
     box-sizing: border-box;
+    border: 1px #ddd solid;
+    border-radius: 4px;
 }
 
 input[type=submit] {
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 4px 10px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 8px;
     box-sizing: border-box;
     display:block;
-    background-color: #34495e;
+    background-color: #34495e;;
     border: none;
     color: #FFF;
-  border-radius: 4px;
+    border-radius: 4px;
 }
 
 input[type=submit]:hover{
@@ -83,4 +89,5 @@ input[type=submit]:hover{
 label {
   margin-top: 10px;
   display: block;
+  font-size: 14px;
 }
