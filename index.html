@@ -9,6 +9,17 @@
         .topnav a:hover {background-color: #00587A}
         .active {background-color: #0F3057}
     </style>
+
+    <script>
+        window.person = {
+            firstName: "John",
+            lastName : "Doe",
+            id       : 5566,
+            fullName : function() {
+               return this.firstName + " " + this.lastName;
+            }
+        };
+    </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
