@@ -1,1 +1,5 @@
-console.log("hello world");
+var __gtmHelper = {
+    printMessage : function(message){
+        console.log(message);
+    }
+}
