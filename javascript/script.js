@@ -1,16 +1,16 @@
-var __gtmHelper = {
-    name : this.getName(),
-    age : this.getAge(),
-    getName: function(){
-        console.log("getName function is fired");
-        return "wahyu albab";
+var _bwaUtils = {
+    getName: function () {
+        return 'wahyu';
     },
-    getAge: function(){
-        console.log("getAge function is fired");
+    getAge: function () {
         return 24;
     },
-    printMessage : function(message){
-        console.log(message);
+    printMessage: function (message) {
+        console.log(message)
     }
 }
-__gtmHelper.printMessage("fired from script.js");
+
+var _bwaDataLayer = {};
+_bwaDataLayer['name'] = _bwaUtils.getName();
+_bwaDataLayer['age'] = _bwaUtils.getAge();
+_bwaUtils.printMessage("name : " + _bwaDataLayer['name'] + " | age : " + _bwaDataLayer['age'])
